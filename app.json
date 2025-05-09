@@ -1,6 +1,6 @@
 {
   "name": "GOTAR-XMD",
-  "description": " whatsapp bot by gotar world and inconnu boy",
+  "description": " whatsapp bot by gotar tech",
   "logo": "ajouter logo w la gota breff",
   "keywords": ["gotar-bot"],
   "success_url": "/",
@@ -85,7 +85,7 @@
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "GOTAR WORLD"
+      "value": "GOTAR TECH"
 }, 
 
     "OWNER_NUMBER": {
