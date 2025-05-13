@@ -1,7 +1,7 @@
 {
   "name": "GOTAR-XMD",
   "version": "1.0.0",
-  "description": "THE BEST BOT BY GOTAR WOLRD AND COLLABORATOR INCONNU BOY",
+  "description": "THE BEST BOT BY GOTAR TECH",
   "main": "index.js",
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name GOTAR-XMD",
