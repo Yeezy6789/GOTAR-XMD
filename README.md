@@ -1,5 +1,5 @@
 ## GOTAR-XMD 
-![GOTAR](https://files.catbox.moe/g252ex.jpg)
+![GOTAR](https://i.imgur.com/GCmZVE9.jpeg)
 <!--
 **GOTAR-XMD/GOTAR-XMD** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
