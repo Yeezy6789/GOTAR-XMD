@@ -50,7 +50,7 @@ cmd({
             `🎞 *Reply with your choice:*\n` +
             `2.1 *Video Type* 🎬\n` +
             `2.2 *Document Type* 📁\n\n` +
-            `${config.FOOTER || "> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ ᴍᴅ*"}`;
+            `${config.FOOTER || "> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ*"}`;
 
         const sentMsg = await conn.sendMessage(from, { image: { url: image }, caption: info }, { quoted: mek });
         const messageID = sentMsg.key.id;
