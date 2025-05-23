@@ -10,12 +10,12 @@ cmd({
 }, 
 async (conn, mek, m, { from }) => {
     try {
-        const ownerNumber = config.OWNER_NUMBER; // Fetch owner number from config
-        const ownerName = config.OWNER_NAME;     // Fetch owner name from config
+        const ownerNumber = 18494967948; // Fetch owner number from config
+        const ownerName = Gotar Tech;     // Fetch owner name from config
 
         const vcard = 'BEGIN:VCARD\n' +
                       'VERSION:3.0\n' +
-                      `FN:${ownerName}\n` +  
+                      `FN:Gotar Tech\n` +  
                       `TEL;type=CELL;type=VOICE;waid=${ownerNumber.replace('+', '')}:${ownerNumber}\n` + 
                       'END:VCARD';
 
@@ -30,7 +30,7 @@ async (conn, mek, m, { from }) => {
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
             image: { url: 'https://files.catbox.moe/rful77.jpg' }, // Image URL from your request
-            caption: `╭━━〔 *MEGALODON-MD* 〕━━┈⊷
+            caption: `╭━━〔 *𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -38,24 +38,17 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *Version*: 1.0.0 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ ᴍᴅ*`, // Display the owner's details
+> *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ*`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363372853772240@newsletter',
-                    newsletterName: '𝗠𝗘𝗚𝗔𝗟𝗢𝗗𝗢𝗡',
+                    newsletterJid: '120363401658098220@newsletter',
+                    newsletterName: '𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗',
                     serverMessageId: 143
                 }            
             }
-        }, { quoted: mek });
-
-        // Send audio as per your request
-        await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/0rpce6.mp3' }, // Audio URL
-            mimetype: 'audio/mp4',
-            ptt: true
         }, { quoted: mek });
 
     } catch (error) {
