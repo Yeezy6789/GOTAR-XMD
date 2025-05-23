@@ -120,13 +120,13 @@ const port = process.env.PORT || 9090;
 ├─▸ *Simplicity. Speed.*
 ╰─➤ *Your New WhatsApp Sidekick is Here!*
 
-*❤️ Thank you for Choosing MEGALODON-MD!*
+*❤️ Thank you for Choosing GOTAR-XMD !*
 
 ╭──〔 🔗 *SUPPORT* 〕  
 ├─ 📢 *Join Our Channel:*  
-│   Click [**Here**](https://whatsapp.com/channel/0029VbAdcIXJP216dKW1253g) to join!  
+│   Click [**Here**](https://whatsapp.com/channel/0029VbAOpMmAInPoTescPr0y) to join!  
 ├─ ⭐ *Give Us a Star:*  
-│  Star Us [**Here**](https://github.com/DybyTech/MEGALODON-MD)!  
+│  Star Us [**Here**](https://github.com/GOTAR-XMD/GOTAR-XMD)!  
 ├──────────────❒
 ╰─〔 BOT MODS 〕──
  *MREFIX* \`${prefix}\`
