@@ -38,8 +38,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363372853772240@newsletter",
-          newsletterName: "𝗠𝗘𝗚𝗔𝗟𝗢𝗗𝗢𝗡",
+          newsletterJid: "120363401658098220@newsletter",
+          newsletterName: "𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗",
           serverMessageId: 143
         }
       }
