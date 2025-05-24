@@ -20,14 +20,17 @@ DONT FORGET TO FORK 🍴 & STAR 🌟 REPO😇
 <p align='center'>
 </p>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=810&height=100&lines=+THANKS FOR CHOOSING+GOTAR-XMD;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+GOTAR+TECH" alt="Typing SVG" /></a>
-  </p>
+<p align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=80&pause=1000&color=8A2BE2&center=true&vCenter=true&width=1000&height=200&lines=MEGALODON-MD;VERSION+2025;BY+DYBY+TECH" alt="Typing SVG" />
+  </a>
+</p>
+
   
 --- 
 
 <a><img src='https://i.imgur.com/GCmZVE9.jpeg'/></a>
 
-<a><img src='https://i.imgur.com/GCmZVE9.jpeg'/></a>
 
 ***
 
