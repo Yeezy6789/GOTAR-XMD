@@ -41,7 +41,7 @@ cmd(
       // Generate sticker metadata
       const sticker = new Sticker(webpBuffer, {
         pack: config.STICKER_NAME || 'My Pack',
-        author: '', // Leave blank or customize
+        author: '𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗', // Leave blank or customize
         type: StickerTypes.FULL, // FULL for regular stickers
         categories: ['🤩', '🎉'], // Emoji categories
         id: '12345', // Optional ID
