@@ -53,12 +53,12 @@ cmd({
     const lastUpdate = fs.statSync(localVersionPath).mtime.toLocaleString();
 
     // GitHub stats
-    const githubRepo = 'https://github.com/DybyTech/MEGALODON-MD';
+    const githubRepo = 'https://github.com/GOTAR-XMD/GOTAR-XMD;
 
     // Check update status
-    let updateMessage = `✅ Your MEGALODON-MD bot is up-to-date!`;
+    let updateMessage = `✅ Your GOTAR-XMD is up-to-date!`;
     if (localVersion !== latestVersion) {
-      updateMessage = `🚀 Your MEGALODON-MD bot is outdated!
+      updateMessage = `🚀 Your GOTAR-XMD out dated!
 🔹 *Current Version:* ${localVersion}
 🔹 *Latest Version:* ${latestVersion}
 
@@ -66,22 +66,22 @@ Use *.update* to update.`;
     }
 
     const statusMessage = `🌟 *Good ${new Date().getHours() < 12 ? 'Morning' : 'Night'}, ${pushname}!* 🌟\n\n` +
-      `📌 *Bot Name:* MEGALODON-MD\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
+      `📌 *Bot Name:* 𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗\n🔖 *Current Version:* ${localVersion}\n📢 *Latest Version:* ${latestVersion}\n📂 *Total Plugins:* ${pluginCount}\n🔢 *Total Commands:* ${totalCommands}\n\n` +
       `💾 *System Info:*\n⏳ *Uptime:* ${uptime}\n📟 *RAM Usage:* ${ramUsage}MB / ${totalRam}MB\n⚙️ *Host Name:* ${hostName}\n📅 *Last Update:* ${lastUpdate}\n\n` +
       `📝 *Changelog:*\n${latestChangelog}\n\n` +
-      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [DybyTech](https://github.com/DybyTech)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
+      `⭐ *GitHub Repo:* ${githubRepo}\n👤 *Owner:* [GotarTech](https://github.com/GOTAR-XMD)\n\n${updateMessage}\n\n🚀 *Hey! Don't forget to fork & star the repo!*`;
 
     // Send the status message with an image
     await conn.sendMessage(from, {
-      image: { url: 'https://files.catbox.moe/rful77.jpg' },
+      image: { url: 'https://files.catbox.moe/82b8gr.jpg' },
       caption: statusMessage,
       contextInfo: {
         mentionedJid: [m.sender],
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363372853772240@newsletter',
-          newsletterName: '𝗠𝗘𝗚𝗔𝗟𝗢𝗗𝗢𝗡',
+          newsletterJid: '120363401658098220@newsletter',
+          newsletterName: '𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗',
           serverMessageId: 143
         }
       }
