@@ -10,12 +10,12 @@ cmd({
 }, 
 async (conn, mek, m, { from }) => {
     try {
-        const ownerNumber = 18494967948; // Fetch owner number from config
-        const ownerName = Gotar Tech;     // Fetch owner name from config
+        const ownerNumber = config.OWNER_NUMBER; // Fetch owner number from config
+        const ownerName = config.OWNER_NAME;     // Fetch owner name from config
 
         const vcard = 'BEGIN:VCARD\n' +
                       'VERSION:3.0\n' +
-                      `FN:Gotar Tech\n` +  
+                      `FN:GotarTech\n` +  
                       `TEL;type=CELL;type=VOICE;waid=${ownerNumber.replace('+', '')}:${ownerNumber}\n` + 
                       'END:VCARD';
 
