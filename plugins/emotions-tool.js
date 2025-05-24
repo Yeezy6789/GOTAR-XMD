@@ -316,7 +316,7 @@ cmd({
 },
 async (conn, mek, m, { from, reply }) => {
     try {
-        const loadingMessage = await conn.sendMessage(from, { text: 'MEGALODON-MD🗿' });
+        const loadingMessage = await conn.sendMessage(from, { text: '𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗🗿' });
         
         // Define the ASCII art messages
         const asciiMessages = [
@@ -346,4 +346,4 @@ async (conn, mek, m, { from, reply }) => {
     }
 });
 
-// > JawadTechX 
+// DybyTech 
