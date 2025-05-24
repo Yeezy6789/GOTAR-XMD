@@ -23,7 +23,7 @@ async (conn, mek, m, { from, reply }) => {
 │ 🚀 Started: ${startTime.toLocaleString()}
 │
 ╰────────────────⳹
-${config.DESCRIPTION}`;
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ`;
 
         // Style 2: Minimalist
         const style2 = `•——[ UPTIME ]——•
@@ -31,15 +31,15 @@ ${config.DESCRIPTION}`;
   ├─ ⏳ ${uptime}
   ├─ 🕒 Since: ${startTime.toLocaleTimeString()}
   │
-  •——[ ${config.BOT_NAME} ]——•`;
+  •——[ 𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗 ]——•`;
 
         // Style 3: Fancy Borders
-        const style3 = `▄▀▄▀▄ BOT UPTIME ▄▀▄▀▄
+        const style3 = `▄▀▄▀▄ 𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗 UPTIME ▄▀▄▀▄
 
   ♢ Running: ${uptime}
   ♢ Since: ${startTime.toLocaleDateString()}
   
-  ${config.DESCRIPTION}`;
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ`;
 
         // Style 4: Code Style
         const style4 = `┌──────────────────────┐
@@ -47,7 +47,7 @@ ${config.DESCRIPTION}`;
 ├──────────────────────┤
 │ • Time: ${uptime}
 │ • Started: ${startTime.toLocaleString()}
-│ • Version: 4.0.0
+│ • Version: 1.0.0
 └──────────────────────┘`;
 
         // Style 5: Modern Blocks
@@ -56,19 +56,19 @@ ${config.DESCRIPTION}`;
   ⏳ ${uptime}
   🕰️ ${startTime.toLocaleString()}
   
-  ${config.DESCRIPTION}`;
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ`;
 
         // Style 6: Retro Terminal
         const style6 = `╔══════════════════════╗
-║   ${config.BOT_NAME} UPTIME    ║
-╠══════════════════════╣
-║ > RUNTIME: ${uptime}
-║ > SINCE: ${startTime.toLocaleString()}
+║   𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗 UPTIME    
+╠══════════════════════
+║  RUNTIME: ${uptime}
+║  SINCE: ${startTime.toLocaleString()}
 ╚══════════════════════╝`;
 
         // Style 7: Elegant
         const style7 = `┌───────────────┐
-│  ⏱️  UPTIME  │
+│  ⏱️  𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗 UPTIME
 └───────────────┘
 │
 │ ${uptime}
@@ -76,7 +76,7 @@ ${config.DESCRIPTION}`;
 │ Since ${startTime.toLocaleDateString()}
 │
 ┌───────────────┐
-│  ${config.BOT_NAME}  │
+│  𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗  
 └───────────────┘`;
 
         // Style 8: Social Media Style
@@ -85,11 +85,11 @@ ${config.DESCRIPTION}`;
 🟢 Online for: ${uptime}
 📅 Since: ${startTime.toLocaleString()}
 
-${config.DESCRIPTION}`;
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ`;
 
         // Style 9: Fancy List
         const style9 = `╔♫═⏱️═♫══════════╗
-   ${config.BOT_NAME} UPTIME
+   𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗 UPTIME
 ╚♫═⏱️═♫══════════╝
 
 •・゜゜・* ✧  *・゜゜・•
@@ -105,9 +105,9 @@ ${config.DESCRIPTION}`;
 ◈ Duration: ${uptime}
 ◈ Start Time: ${startTime.toLocaleString()}
 ◈ Stability: 100%
-◈ Version:  4.0.0
+◈ Version:  1.0.0
 
-${config.DESCRIPTION}`;
+> ᴘᴏᴡᴇʀᴇᴅ ʙʏ ɢᴏᴛᴀʀ ᴛᴇᴄʜ`;
 
         const styles = [style1, style2, style3, style4, style5, style6, style7, style8, style9, style10];
         const selectedStyle = styles[Math.floor(Math.random() * styles.length)];
@@ -119,8 +119,8 @@ ${config.DESCRIPTION}`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363372853772240@newsletter',
-                    newsletterName: config.OWNER_NAME || '𝗠𝗘𝗚𝗔𝗟𝗢𝗗𝗢𝗡',
+                    newsletterJid: '120363401658098220@newsletter',
+                    newsletterName: config.OWNER_NAME || '𝗚𝗢𝗧𝗔𝗥-𝗫𝗠𝗗',
                     serverMessageId: 143
                 }
             }
