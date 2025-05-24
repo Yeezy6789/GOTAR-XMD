@@ -12,8 +12,8 @@ DONT FORGET TO FORK 🍴 & STAR 🌟 REPO😇
 
   <p align="center">
 <a href="https://github.com/mrfrank-ofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/GOTAR-XMD?color=blue&style=flat-square"></a>
-<a href="https://github.com/GOTAR-XMD/GOTAR-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/itx-alii-raza/GOTAR-XMD?color=blue&style=flat-square"></a>
-<a href="https://github.com/GOTAR-XMD/GOTAR-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/itx-alii-raza/GOTAR-XMD?color=blue&style=flat-square"></a>
+<a href="https://github.com/GOTAR-XMD/GOTAR-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/GOTAR-XMD/GOTAR-XMD?color=blue&style=flat-square"></a>
+<a href="https://github.com/GOTAR-XMD/GOTAR-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/GOTAR-XMD/GOTAR-XMD?color=blue&style=flat-square"></a>
 <a href="https://github.com/GOTAR-XMD/GOTAR-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/GOTAR-XMD/GOTAR-XMD?style=flat-square&color=green"></a>
 <a href="https://github.com/GOTAR-XMD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"></a>&nbsp;&nbsp;
 </p>
