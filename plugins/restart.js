@@ -3,7 +3,7 @@ const { sleep } = require("../lib/functions");
 
 cmd({  
     pattern: "restart",  
-    desc: "Restart MEGALODON-MD",  
+    desc: "RESTAR GOTAR-XMD",  
     category: "owner",  
     filename: __filename  
 },  
@@ -14,7 +14,7 @@ async (conn, mek, m, { reply, isCreator }) => {
         }  
 
         const { exec } = require("child_process");  
-        reply("megalodon Restarting...");  
+        reply("GOTAR-XMD RESTARTING...");  
         await sleep(1500);  
         exec("pm2 restart all");  
     } catch (e) {  
