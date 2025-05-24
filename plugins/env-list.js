@@ -26,7 +26,7 @@ async (conn, mek, m, { from, quoted, reply, isOwner }) => {
         const isEnabled = (value) => value && value.toString().toLowerCase() === "true";
 
         let envSettings = `
-╭───『 *MEGALODON-MD CONFIG* 』───❏
+╭───『 *GOTAR-XMD CONFIG* 』───❏
 │
 ├─❏ *🤖 BOT INFO*
 │  ├─∘ *Name:* ${config.BOT_NAME}
@@ -73,13 +73,13 @@ async (conn, mek, m, { from, quoted, reply, isOwner }) => {
 │  ├─∘ *Anti-Del Path:* ${config.ANTI_DEL_PATH}
 │  └─∘ *Dev Number:* ${config.DEV}
 │
-╰───『 > *ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴍᴇɢᴀʟᴏᴅᴏɴ ᴍᴅ* 』───❏
+╰─────────────────────❏
 `;
 
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://files.catbox.moe/rful77.jpg` },
+                image: { url: `https://files.catbox.moe/82b8gr.jpg` },
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
@@ -90,16 +90,6 @@ async (conn, mek, m, { from, quoted, reply, isOwner }) => {
             { quoted: mek }
         );
 
-        // Optional audio message
-        await conn.sendMessage(
-            from,
-            {
-                audio: { url: 'https://github.com/JawadYT36/KHAN-DATA/raw/refs/heads/main/autovoice/menunew.m4a' },
-                mimetype: 'audio/mp4',
-                ptt: true
-            },
-            { quoted: mek }
-        );
 
     } catch (error) {
         console.error('Env command error:', error);
