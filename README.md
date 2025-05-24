@@ -11,7 +11,7 @@ DONT FORGET TO FORK 🍴 & STAR 🌟 REPO😇
 
 
   <p align="center">
-<a href="https://github.com/mrfrank-ofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/itx-alii-raza?color=blue&style=flat-square"></a>
+<a href="https://github.com/mrfrank-ofc/followers"><img title="Followers" src="https://img.shields.io/github/followers/GOTAR-XMD?color=blue&style=flat-square"></a>
 <a href="https://github.com/GOTAR-XMD/GOTAR-XMD/stargazers/"><img title="Stars" src="https://img.shields.io/github/stars/itx-alii-raza/GOTAR-XMD?color=blue&style=flat-square"></a>
 <a href="https://github.com/GOTAR-XMD/GOTAR-XMD/network/members"><img title="Forks" src="https://img.shields.io/github/forks/itx-alii-raza/GOTAR-XMD?color=blue&style=flat-square"></a>
 <a href="https://github.com/GOTAR-XMD/GOTAR-XMD/"><img title="Size" src="https://img.shields.io/github/repo-size/GOTAR-XMD/GOTAR-XMD?style=flat-square&color=green"></a>
@@ -22,7 +22,7 @@ DONT FORGET TO FORK 🍴 & STAR 🌟 REPO😇
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=80&pause=1000&color=8A2BE2&center=true&vCenter=true&width=1000&height=200&lines=GOTAR-XMD;VERSION+2025;BY+GOTAR+TECH" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=80&pause=1000&color=00FF00&center=true&vCenter=true&width=1000&height=200&lines=GOTAR-XMD;VERSION+2025;BY+GOTAR+TECH" alt="Typing SVG" />
   </a>
 </p>
 
